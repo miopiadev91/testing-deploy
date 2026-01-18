@@ -1,8 +1,0 @@
-services:
-  frontend:
-    container_name: angular-preview
-    build:
-      context: .
-      dockerfile: Dockerfile.prod
-    ports:
-      - "80:80"
